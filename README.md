@@ -38,7 +38,7 @@ The project demonstrates how computer vision can be used to create natural human
 3. Install the required packages:
    ```
    pip install -r requirements.txt
-   ```
+   ``
 
 4. Run the application:
    ```
@@ -52,20 +52,22 @@ AirCanvas recognises different hand gestures to control drawing functions:
 
 Make a pinch gesture with your index finger and thumb to draw. Move your hand while maintaining the pinch to create lines and shapes.
 
-![Demonstration of Pinch Gesture](images/pinch.png)
+![Demonstration of Drawing Gesture](pss/ps1.png)
+
+
 
 ### Select Gesture
 
 Point with your index finger to select colors from the palette on the right side of the screen.
 
-![Demonstration of Select Gesture](images/select.png)
+![Demonstration of Select Gesture](pss/ps2.png)
 
 
 ### Erase Gesture
 
 Show an open palm to erase. A circle will appear around your index finger showing the eraser size.
 
-![Demonstration of Erase Gesture](images/erase.png)
+![Demonstration of Erase Gesture](pss/ps3.png)
 
 
 ### Controls and Features
@@ -84,8 +86,7 @@ AirCanvas includes an audio recognition feature that allows you to control the a
 
 The audio recognition runs in a separate thread, allowing it to listen for commands continuously while you draw.
 
-#### Contributor Acknowledgment
-Special thanks to [@AlexCaranha](https://github.com/AlexCaranha) for implementing the speech recognition functionality.
+
 
 ## Implementation Progress
 
